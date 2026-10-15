@@ -1,7 +1,6 @@
 # Backend — Fruit Detection API
 
-FastAPI + Ultralytics YOLO + SQLite. See the [project README](../README.md) for
-the full walkthrough.
+FastAPI + Ultralytics YOLO + SQLite.
 
 > Requires **Python 3.10+**. Do **not** use the system `python3` (3.9 on macOS).
 
