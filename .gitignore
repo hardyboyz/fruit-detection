@@ -1,0 +1,27 @@
+# ---- Python / backend ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Local database + uploaded images (regenerated at runtime)
+fruits.db
+fruits.db-journal
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# YOLO weights: large binaries. Keep your own model out of git (or use LFS).
+models/*.pt
+models/*.onnx
+!models/README.md
+
+# ---- Editors / OS ----
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# ---- Env ----
+.env

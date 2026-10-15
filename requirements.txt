@@ -1,0 +1,18 @@
+# ---- Web framework ----
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# ---- Data layer ----
+SQLAlchemy==2.0.36
+pydantic==2.10.4
+
+# ---- Computer vision / YOLO ----
+# `ultralytics` pulls in torch + torchvision + opencv automatically.
+ultralytics==8.3.63
+# `torchvision` provides the ImageNet classifier ensemble used to arbitrate
+# between models; `requests` fetches the general detector on first run.
+torchvision>=0.17
+requests>=2.31
+Pillow==11.0.0
+numpy>=1.24,<3
